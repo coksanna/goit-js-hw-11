@@ -12,39 +12,9 @@ body {
   line-height: 1.5;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
-}
 
-li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-p {
-  margin: 0px;
-}
 
-.country-item {
-  display: flex;
-  gap: 10px;   
-  align-items: center;  
-}
 
-.country-info-list {
-  margin: 0;
-  padding: 0;
-}
-
-.country-info_item {
-  display: flex;
-  gap: 10px; 
-  margin-bottom: 15px;
-  align-items: center;  
-}
 
 
