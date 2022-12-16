@@ -1,7 +1,6 @@
 a {
   text-decoration: none;
-  color: #000;
-  border: 1px solid rgba(238, 238, 238, 0.097);
+  color: #000;  
 }
 
 img {
@@ -46,4 +45,8 @@ img {
   flex-wrap: wrap;
   flex-basis: calc((100% - 10px) / 4);
   gap: 5px;  
+}
+
+.gallery__item {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

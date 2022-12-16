@@ -11,8 +11,7 @@ export default class ImageApi {
         const url = 'https://pixabay.com/api/';
 
         const { data } = await axios.get(`${url}?key=${api_key}&q=${this.searchQuery}&image_type=photo&orientation=horizontal&safesearch=true&per_page=40&page=${this.page}`);
-        this.page += 1;
-        console.log(data);
+        this.page += 1;        
         return data;
     }
     resetPage() {
